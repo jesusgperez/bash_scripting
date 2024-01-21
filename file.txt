@@ -1,0 +1,5 @@
+Hello world
+This is a bash scripting practice
+Now I'm creating a deployment process
+Bash scripting is great for that
+Lorem ipsum
