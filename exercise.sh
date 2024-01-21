@@ -9,4 +9,4 @@ echo ${#file1}
 
 while read -r line; do
 	echo "$line"
-done <file.txt
+done <inputs/file.txt
