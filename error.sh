@@ -5,4 +5,13 @@ record_and_error(){
     exit 1
 }
 
-ls inputs_ && echo "list successful" || record_and_error "list failed"
+ls inputs && echo "list successful" || record_and_error "list failed"
+
+destroy_image=false
+
+if [ "$destroy_image" = true ]; then
+    echo "The image has been destroyed"
+else
+    echo "The image has not been destroyed"
+fi
+
